@@ -1,0 +1,8 @@
+100,Jagan,34,40000,hyd
+200,alekay,20,30000,bang
+300,vivek,30,5000, che
+400,swati,33,60000,bombay
+1100,Jagan1,34,40000,hyd
+1200,alekay1,20,30000,bang
+1300,vivek1,30,5000, che
+1400,swati1,33,60000,bombay

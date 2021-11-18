@@ -1,0 +1,4 @@
+100|Jagan|34|40000|hyd
+200|alekay|20|30000|bang
+300|vivek|30|5000|che
+400|swati|33|60000|bombay

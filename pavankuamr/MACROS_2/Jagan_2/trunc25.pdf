@@ -1,0 +1,426 @@
+50|IN_DATA_SET_ALREADY_EXISTS|1|E|Data set %1$ already exists.|SASHELP.FSP.OK.SLIST
+56|DI_MBCONVERT|1|N|The current Metabase requires conversion to Repository.  If you choose to cancel the conversion, the repository will be unavailable.  Press OK to continue, or Cancel to stop conversion.|SASHELP.FSP.OC.SLIST
+58|IN_BROWSEMODE|1|N|%lIn browse mode.|SASHELP.FSP.OK.SLIST
+59|DI_DUP_ATTR|1|E|%lDuplicate attribute name specified.|SASHELP.FSP.OK.SLIST
+60|DI_NO_SELECTION_TO_DELETE|1|N|%lNo selections made, nothing to delete.|SASHELP.FSP.OK.SLIST
+61|IN_AT_BOTTOM|1|N|%lAt bottom.|SASHELP.FSP.OK.SLIST
+62|IN_AT_TOP|1|N|%lAt top.|SASHELP.FSP.OK.SLIST
+63|IN_ATTR_DICT_EMPTY|1|N|%lThe attribute dictionary is empty.|SASHELP.FSP.OK.SLIST
+64|IN_NO_HIERARCHY_DESC|1|E|%lA hierarchy description must be entered.|SASHELP.FSP.OK.SLIST
+65|IN_SELECT_HIERARCHY|1|N|%lNo Hierarchy selected.|SASHELP.FSP.OK.SLIST
+67|IO_COPY_FAILED|1|E|%lThe copy was unsuccessful.|SASHELP.FSP.OK.SLIST
+68|IO_COPY_OK|1|N|%lCopy completed successfully.|SASHELP.FSP.OK.SLIST
+69|IO_REPLACE_COL_DB|1|W|%lColumns database already exists and will be replaced. Do you    want to proceed with the copy?|SASHELP.FSP.OC.SLIST
+71|IN_CANCELED|1|N|%lCancel command accepted.|SASHELP.FSP.OK.SLIST
+74|DI_MB_EXISTS|1|E|%lRepository %1$ already exists. Specify another name or Cancel to quit.|SASHELP.FSP.OK.SLIST
+75|IN_MB_EMPTY|1|N|%lRepository is empty. Select Add to register new tables.|SASHELP.FSP.OK.SLIST
+76|DI_NO_DELETE_ATTRIBUTE|1|W|%lDefault attribute %1$ cannot be deleted.|SASHELP.FSP.OK.SLIST
+77|IN_NO_TABLE_TO_VIEW|1|N|%lNo table selected, nothing to view.|SASHELP.FSP.OK.SLIST
+78|IO_TABLE_NOT_EXIST|1|E|%l %1$ either does not exist or is damaged%N|SASHELP.FSP.OK.SLIST
+78|IO_TABLE_NOT_EXIST|2|E|and cannot be opened.|SASHELP.FSP.OK.SLIST
+79|DI_ATTR_NOT_FOUND|1|W|%lAttribute %1$ not found in attribute dictionary.|SASHELP.FSP.OK.SLIST
+80|IN_NO_METABASES|1|N|%lNo metabases exist in this library.|SASHELP.FSP.OK.SLIST
+81|IN_TABLE_EMPTY|1|N|%lTable is empty. Press Add to register columns.|SASHELP.FSP.OK.SLIST
+82|IO_NO_ACCESS|1|E|%lYou do not have authorization to access %1$.|SASHELP.FSP.OK.SLIST
+83|IO_CANNOT_OPEN_AD|1|E|%lThe current attribute dictionary cannot be opened.|SASHELP.FSP.OK.SLIST
+84|DI_NO_NUMERIC_VAR|1|E|%lTable %1$ does not have any numeric variables. The CSFDS attribute cannot be assigned.|SASHELP.FSP.OK.SLIST
+85|DI_INVALID_LISTID_GET_ATTR|1|E|%lInvalid return list id for _GET_ATTRIBUTES_.|SASHELP.FSP.OK.SLIST
+86|IO_CANNOT_OPEN_MB|1|E|%lUnable to open repository %1$.|SASHELP.FSP.OK.SLIST
+87|DI_INVALID_LISTID_GET_CONT|1|E|%lInvalid return list id for _GET_CONTENTS_.|SASHELP.FSP.OK.SLIST
+88|IO_MB_NOT_OPEN|1|E|%lRepository not open.|SASHELP.FSP.OK.SLIST
+89|IN_NO_MB_NAME|1|E|%lRepository name not specified.|SASHELP.FSP.OK.SLIST
+90|DI_REG_EXISTS|1|E|%lRegistration %1$ already exists.|SASHELP.FSP.OK.SLIST
+91|DI_NO_AUTOASSIGN_METHOD|1|W|%lAutomatic assign method %1$ does not currently exist for attribute %2$.|SASHELP.FSP.OK.SLIST
+92|DI_NO_INTERASSIGN_METHOD|1|W|%lInteractive assign method %1$ does not currently exist for attribute %2$.|SASHELP.FSP.OK.SLIST
+93|DI_NO_CREATE_METHOD|1|W|%lCreate method %1$ does not currently exist for attribute %2$.|SASHELP.FSP.OK.SLIST
+94|DI_NO_DEASSIGN_METHOD|1|W|%lDe-assign method %1$ does not currently exist for attribute %2$.|SASHELP.FSP.OK.SLIST
+95|IN_NAME_DESC_REQUIRED|1|E|%lA name and description are required.|SASHELP.FSP.OK.SLIST
+96|DI_CANNOT_ADD_MLINDEX|1|E|%lRepository _ADD_MLINDEX_ENTRY %1$|SASHELP.FSP.OK.SLIST
+97|IN_NO_METALIB_IN_PATH|1|E|%lA metalib index does not exist in the specified path.|SASHELP.FSP.OK.SLIST
+98|DI_ENTRY_EXISTS|1|E|%lEntry %1$ already exists.|SASHELP.FSP.OK.SLIST
+99|IN_NAME_TYPE_REQUIRED|1|E|%lA name and type are required.|SASHELP.FSP.OK.SLIST
+100|IO_CANNOT_READ_ENTRY|1|E|%lEntry %1$ does not exist or could not be read.|SASHELP.FSP.OK.SLIST
+101|DI_CANNOT_GET_MLINDEX_INFO|1|E|%lMetabase _GET_MLINDEX_INFO_ %1$|SASHELP.FSP.OK.SLIST
+102|DI_CANNOT_GET_MLINDEX_LIST|1|E|%lRepository _GET_MLINDEX_LIST_ %1$|SASHELP.FSP.OK.SLIST
+103|IO_NO_MB|1|E|%lRepository library does not exist.|SASHELP.FSP.OK.SLIST
+104|DI_INVALID_LABEL|1|E|%lAn invalid label name has been specified.|SASHELP.FSP.OK.SLIST
+109|IN_MB_PROLOG_CHECKBOX_LABEL|1|O|Auto register output table|SASHELP.FSP.OK.SLIST
+111|IN_MB_EPILOG_CHECKBOX_LABEL|1|O|Remove output table registration|SASHELP.FSP.OK.SLIST
+112|IN_MB_PROLOG_WINDOW_NAME|1|O|Table Prolog Program|SASHELP.FSP.OK.SLIST
+113|IN_MB_EPILOG_WINDOW_NAME|1|O|Table Epilog Program|SASHELP.FSP.OK.SLIST
+118|IO_DELETE_OK|1|N|%lDelete completed successfully.|SASHELP.FSP.OK.SLIST
+170|DI_REPLACE_TABLE|1|W|%lTable %$ already exists.%NDo you want to replace the existing table?|SASHELP.FSP.YN.SLIST
+181|IO_NAME_INVALID|1|E|%lA valid name must be given. Names can be up to eight characters long. The first character must be a letter or underscore. Blanks or special characters (for example, $,@,#) are not allowed.|SASHELP.FSP.OK.SLIST
+188|IO_MLINDEX_NOT_CREATED|1|E|%LMetalib index file could not be successfully created.|SASHELP.FSP.OK.SLIST
+197|IO_CANNOT_CREATE_MLINDEX|1|E|%L Unable to create metalib index data set.|SASHELP.FSP.OK.SLIST
+202|IN_CONFIRM_DELETE|1|Q|Are you sure you wish to delete:%n%1$?|SASHELP.FSP.OC.SLIST
+202|IN_CONFIRM_DELETE|2|Q|%n%n|SASHELP.FSP.OC.SLIST
+202|IN_CONFIRM_DELETE|3|Q|Use OK to delete, Cancel to quit.|SASHELP.FSP.OC.SLIST
+204|IO_REPLACE_METABASE|1|W|%l Repository %1$ already exists in %N %2$ %N|SASHELP.FSP.YN.SLIST
+204|IO_REPLACE_METABASE|2|W|Do you want to replace the existing repository?|SASHELP.FSP.YN.SLIST
+207|DI_SELECT_TYPE|1|E|%l You must select the %1$ to copy.|SASHELP.FSP.OK.SLIST
+208|DI_SPECIFY_PATH_FROM|1|E|%lYou must specify the path to copy from.|SASHELP.FSP.OK.SLIST
+210|DI_SPECIFY_NEWNAME|1|N|%l To copy the selected %1$ in the same path,|SASHELP.FSP.OK.SLIST
+210|DI_SPECIFY_NEWNAME|2|N|enter a different name for the duplicate %1$.|SASHELP.FSP.OK.SLIST
+213|IN_SELECT_OR_CAN|1|N|%L Select a path and database to copy to or select|SASHELP.FSP.OK.SLIST
+213|IN_SELECT_OR_CAN|2|N|Cancel.|SASHELP.FSP.OK.SLIST
+214|DI_REPLACE_REG|1|W|%L %1$ already exists in %N %2$ %N Do you want to replace the existing registration?|SASHELP.FSP.YN.SLIST
+215|IN_SPECIFY_PATH_TO|1|E|%L You must specify the path to copy to.|SASHELP.FSP.OK.SLIST
+235|IN_NEW_MB_WNAME|1|O|Create a New Metabase|SASHELP.FSP.OK.SLIST
+237|IN_RENAME_MB_WNAME|1|O|Rename Metabase|SASHELP.FSP.OK.SLIST
+238|IN_RENAME_MBR_WNAME|1|O|Rename Registration|SASHELP.FSP.OK.SLIST
+239|IN_NEW_SA_WNAME|1|O|Create a New Application Database|SASHELP.FSP.OK.SLIST
+240|IN_NEW_OD_WNAME|1|O|Create a New Object Database|SASHELP.FSP.OK.SLIST
+246|IN_INVALID_SAS_NAME|1|E|%lInvalid SAS name.|SASHELP.FSP.OK.SLIST
+247|IN_HIER_NOT_FOUND|1|E|Hierarachy: '%$', not found in the specified repository.|SASHELP.FSP.OK.SLIST
+250|IN_NAME_REQUIRED|1|E|%LA value for Name is required.|SASHELP.FSP.OK.SLIST
+262|IN_ATTR_DICT_ALREADY_EXISTS|1|E|%lAttribute dictionary '%$' already exists.|SASHELP.FSP.OK.SLIST
+265|IN_NO_ATTRDICTS|1|N|%lNo attribute dictionaries exist in this library.|SASHELP.FSP.OK.SLIST
+269|IN_INVALID_COL_NAME|1|E|%LInvalid column name.|SASHELP.FSP.OK.SLIST
+270|IN_INVALID_DATA_LENGTH|1|E|%LData length must be between 3 and 8.|SASHELP.FSP.OK.SLIST
+271|IN_INVALID_DATA_LENGTHC|1|E|%LData length must be between 1 and 200.|SASHELP.FSP.OK.SLIST
+272|IN_EDIT_EXECUTED|1|N|%lEdit method was executed.|SASHELP.FSP.OK.SLIST
+276|IN_SELECT_CANCEL|1|N|%LNo hierarchy selected. Select a hierarchy or Cancel to quit.|SASHELP.FSP.OK.SLIST
+277|IO_METABASE_EXISTS|1|E|%LThe 'Copy to' repository already exists. Specify another name and/or path.|SASHELP.FSP.OK.SLIST
+279|IN_WNAME_SRCHPATH_ATTR|1|O|Attribute Dictionary Search Path|SASHELP.FSP.OK.SLIST
+280|IN_WNAME_SRCHPATH_CAT|1|O|Catalog Search Path|SASHELP.FSP.OK.SLIST
+281|IN_WNAME_SRCHPATH_APPL|1|O|Database Search Path|SASHELP.FSP.OK.SLIST
+282|IN_WNAME_SRCHPATH_OBJ|1|O|Object Groups Search Path|SASHELP.FSP.OK.SLIST
+283|IN_WNAME_SRCHPATH_LIB|1|O|Library Configurations Search Path|SASHELP.FSP.OK.SLIST
+285|DI_INDEX_NOT_CREATED|1|E|%lRepository index %$ missing and could not be created.|SASHELP.FSP.OK.SLIST
+292|IN_WRITE_DENIED|1|E|%lWrite access to %$ denied.|SASHELP.FSP.OK.SLIST
+294|IN_NO_DUP_COLUMNS|1|E|Duplicate columns are not allowed in calculation.|SASHELP.FSP.OK.SLIST
+295|IN_EQUATION_COMPLETE|1|N|Equation is complete. Press Define.|SASHELP.FSP.OK.SLIST
+296|IN_NEEDS_MORE_DATA|1|E|Calculation requires more data. Please choose a column.|SASHELP.FSP.OK.SLIST
+297|IN_COLUMN_USED_IN_CALC|1|E|Column is used in calculation of %1$.|SASHELP.FSP.OK.SLIST
+298|IN_DESC_MUST_BE_UNIQUE|1|E|Description must be unique.|SASHELP.FSP.OK.SLIST
+305|IN_WNAME_COPYREG_NONMB|1|O|SAS/EIS: Copy|SASHELP.FSP.OK.SLIST
+306|IN_WNAME_COPYREG_MB|1|O|Copy a Metabase Registration|SASHELP.FSP.OK.SLIST
+321|IN_UPDATE_DENIED|1|W|%$ could not be opened in update mode.|SASHELP.FSP.OK.SLIST
+332|IN_NAME_REQUIRED2|1|E|%lSpecify a 'Copy to' name or select Cancel to quit.|SASHELP.FSP.OK.SLIST
+333|IN_MCEIS_LABEL|1|O|SAS/EIS Global Attribute Dictionary|SASHELP.FSP.OK.SLIST
+352|DI_SASAPPL_EXISTS|1|E|%LApplication database %1$ already exists. Specify another name or Cancel to quit.|SASHELP.FSP.OK.SLIST
+353|DI_OBJECTG_EXISTS|1|E|%LObject groups database %1$ already exists. Specify another name or Cancel to quit.|SASHELP.FSP.OK.SLIST
+354|DI_CONFIG_EXISTS|1|E|%LConfiguration file %1$ already exists. Specify another name or Cancel to quit.|SASHELP.FSP.OK.SLIST
+355|DI_AD_EXISTS|1|E|%LAttribute dictionary %1$ already exists. Specify another name or Cancel to quit.|SASHELP.FSP.OK.SLIST
+356|IN_NEW_AT_WNAME|1|O|Create a New Attribute Dictionary|SASHELP.FSP.OK.SLIST
+357|IN_RENAME_AT_WNAME|1|O|Rename Attribute Dictionary|SASHELP.FSP.OK.SLIST
+359|IO_DESC_REQUIRED|1|E|%LA description is required. Specify one or Cancel to quit.|SASHELP.FSP.OK.SLIST
+360|IO_ATTR_TYPE_REQUIRED|1|E|%LAn attribute type is required. Specify one or Cancel to quit.|SASHELP.FSP.OK.SLIST
+364|DI_NEW_NAME_REQUIRED|1|E|%LA new attribute dictionary name is required to perform rename.|SASHELP.FSP.OK.SLIST
+365|DI_AD_NAME_NOT_EXIST|1|E|%LThe specified attribute dictionary, %1$, does not exist.|SASHELP.FSP.OK.SLIST
+366|DI_AD_ALREADY_EXITS|1|E|%LThe attribute dictionary specified already exists.|SASHELP.FSP.OK.SLIST
+367|DI_AD_RENAME_UNSUCCESSFUL|1|E|%LAttribute dictionary %1$ cannot be renamed. Please see log for messages.|SASHELP.FSP.OK.SLIST
+397|IN_NO_APPL_FOUND|1|W|%LNo application databases found in the specified path.|SASHELP.FSP.OK.SLIST
+398|IN_NO_OBJ_FOUND|1|W|%LNo object group databases found in the specified path.|SASHELP.FSP.OK.SLIST
+399|IN_NO_MB_FOUND|1|N|%LNo metabases found in the specified path.|SASHELP.FSP.OK.SLIST
+400|IN_NO_AD_FOUND|1|W|%LNo attribute dictionaries found in the specified path.|SASHELP.FSP.OK.SLIST
+401|IN_NO_ADS_FOUND|1|W|%LNo attribute dictionaries found in the specified path. Select another path or cancel to quit.|SASHELP.FSP.OK.SLIST
+407|IN_COMP_LEVELS_TITLE|1|O|Computed Values|SASHELP.FSP.OK.SLIST
+408|IN_LEVELS|1|O|Values|SASHELP.FSP.OK.SLIST
+410|IN_MUST_HAVE_LOCATION|1|E|You must specify a location for the computed level.|SASHELP.FSP.OK.SLIST
+411|CL_CALCS_LIST|1|L|Difference of two values, Sum of two or more values, Ratio of two values, Percent, Mean of two or more values, Minimum of two or more values, Maximum of two or more values|SASHELP.FSP.OK.SLIST
+418|IN_LEVEL_EXISTS|1|Q|%LLevels table %1$ already exists. Do you wish to replace it?|SASHELP.FSP.YN.SLIST
+426|DI_EPILOG_NOT_FOUND|1|E|EPILOG entry %1$ not found. Verify the value of the EPILOG attribute for table %2$ in the repository.|SASHELP.FSP.OK.SLIST
+427|DI_PROLOG_NOT_FOUND|1|E|PROLOG entry %1$ not found. Verify the value of the PROLOG attribute for table %2$ in the repository.|SASHELP.FSP.OK.SLIST
+433|IN_NO_MB_FOUND_CREATE|1|Q|%LNo metabases found in the specified path.%n%nDo you wish to create one?|SASHELP.FSP.YN.SLIST
+434|IN_NO_APPL_FOUND_CREATE|1|Q|%LNo application databases found in the specified path.%n%nDo you wish to create one?|SASHELP.FSP.YN.SLIST
+435|IN_NO_OBJ_FOUND_CREATE|1|Q|%LNo object group databases found in the specified path.%n%nDo you wish to create one?|SASHELP.FSP.YN.SLIST
+436|IN_NO_AD_FOUND_CREATE|1|Q|%LNo attribute dictionaries found in the specified path.%n%nDo you wish to create one?|SASHELP.FSP.YN.SLIST
+449|IN_COPY_TO_WRITE_DENIED|1|E|%LWrite access for 'Copy to' database %1$ denied. Select another database or Cancel to quit.|SASHELP.FSP.OK.SLIST
+451|IN_RECURSION|1|E|A column may not be used in its own definition.|SASHELP.FSP.OK.SLIST
+451|IN_RECURSION|2|E|%1$ is used in the calculation of %2$.|SASHELP.FSP.OK.SLIST
+453|IN_SELECT_CALC|1|N|You must select a calculation type before you can|SASHELP.FSP.OK.SLIST
+453|IN_SELECT_CALC|2|N|specify the columns to use in the calculation.|SASHELP.FSP.OK.SLIST
+460|IN_COMP_COL_REMOVED|1|N|Computed column %1$ is no longer valid.|SASHELP.FSP.OC.SLIST
+460|IN_COMP_COL_REMOVED|2|N|Column %2$ used in definition is no longer available.|SASHELP.FSP.OC.SLIST
+460|IN_COMP_COL_REMOVED|3|N|OK to delete computed column %1$ from the metabase.|SASHELP.FSP.OC.SLIST
+460|IN_COMP_COL_REMOVED|4|N|Cancel to cancel report.|SASHELP.FSP.OC.SLIST
+462|IN_COMP_COL_REMOVED_ROMB|1|E|Computed column %1$ is no longer valid.|SASHELP.FSP.OK.SLIST
+462|IN_COMP_COL_REMOVED_ROMB|2|E|Column %2$ used in definition is no longer available.|SASHELP.FSP.OK.SLIST
+462|IN_COMP_COL_REMOVED_ROMB|3|E|You must delete column %1$ from the metabase before|SASHELP.FSP.OK.SLIST
+462|IN_COMP_COL_REMOVED_ROMB|4|E|you can build a report with the selected table.|SASHELP.FSP.OK.SLIST
+463|IN_COMP_COL_BAD_DEF|1|E|The definition of computed column %1$ is no longer available.|SASHELP.FSP.OC.SLIST
+463|IN_COMP_COL_BAD_DEF|2|E|OK to delete %1$ from the metabase.|SASHELP.FSP.OC.SLIST
+463|IN_COMP_COL_BAD_DEF|3|E|Cancel to cancel the report.|SASHELP.FSP.OC.SLIST
+464|IN_COMP_COL_BAD_DEF_ROMB|1|E|The definition of computed column %1$ is no longer available.|SASHELP.FSP.OK.SLIST
+464|IN_COMP_COL_BAD_DEF_ROMB|2|E|You must delete column %1$ from your metabase before you|SASHELP.FSP.OK.SLIST
+464|IN_COMP_COL_BAD_DEF_ROMB|3|E|can build a report using the selected table.|SASHELP.FSP.OK.SLIST
+464|IN_COMP_COL_BAD_DEF_ROMB|4|E|OK to cancel the report|SASHELP.FSP.OK.SLIST
+468|IN_READONLY_PARMSCAT|1|N|%LUnable to open parameter catalog: %1$ in update mode. Temporary parameter values will be saved to %2$.|SASHELP.FSP.OK.SLIST
+470|IN_CANT_LOAD_PARMSCAT|1|E|%LUnable to read parameter catalog: %1$. Default parameter values will be used.|SASHELP.FSP.OK.SLIST
+471|IN_CANT_CONVERT_PARMSDS|1|W|%LUnable to convert parms data set: %1$ to a parameter catalog. Default parameter values will be used.|SASHELP.FSP.OK.SLIST
+472|IN_CANT_CREATE_PARMSCAT|1|W|%LUnable to create parameter catalog: %1$|SASHELP.FSP.OK.SLIST
+473|IN_CANT_SAVE_PARMSCAT|1|E|%LUnable to write to parameter catalog %1$. Parameter values were not saved.|SASHELP.FSP.OK.SLIST
+479|IN_1LEVEL_PARMSCAT|1|W|%LA two-level name is required for the PARMS= option. Defaulting to %1$. Parameter values will not be saved.|SASHELP.FSP.OK.SLIST
+480|IN_INVALID_PARMTYPE|1|W|%LInvalid parameter catalog entry type %1$. Using .SLIST instead.|SASHELP.FSP.OK.SLIST
+481|IN_PARM_CONVERT_SUCCESSFUL|1|N|%LParameter data set %1$ successfully converted.|SASHELP.FSP.OK.SLIST
+482|IN_INVALID_PARMCATNAME|1|E|%LInvalid parameter catalog name %1$. Using %2$. Parameter values will not be saved.|SASHELP.FSP.OK.SLIST
+487|IN_WRITE_ACCESS_DENIED|1|W|%LYou do not have write access to %1$. Select another path or Cancel to quit.|SASHELP.FSP.OK.SLIST
+511|IN_CAT_ENTRY_REQUIRED|1|E|A FRAME, PROGRAM, or SCL catalog entry name is required.|SASHELP.FSP.OK.SLIST
+514|IO_INVALID_VARIABLE|1|E|%lThe variable %1$ does not exist.|SASHELP.FSP.OK.SLIST
+525|IN_TABLE_ALREADY_EXISTS|1|E|%LTable %1$ already exists. Specify another name or select Cancel to quit.|SASHELP.FSP.OK.SLIST
+532|IN_ATTRIBUTE_NOT_FOUND|1|W|Attribute %1$ was not found in the attribute dictionary search path.|SASHELP.FSP.OK.SLIST
+642|IN_NEW_CAT_WNAME|1|O|Create a New Configuration Catalog|SASHELP.FSP.OK.SLIST
+699|DI__INVALID_LISTID|1|E|%lInvalid return list id.|SASHELP.FSP.OK.SLIST
+805|DI_MISSING_APPEND_INFO|1|E|Unable to add requested attribute to the repository because a value for one of the following is missing: dsetname, varname, attribute.|SASHELP.FSP.OK.SLIST
+955|CL_ADD_COLUMN_POPUP|1|L|Table Column, Computed Column, Distinct Count (NUNIQUE)| 
+993|IN_NO_MDDBS_FOUND|1|W|%LNo MDDB members exist for this attribute.|SASHELP.FSP.OK.SLIST
+994|DI_MDDB_ENTRY_NOT_EXIST|1|W|%LThe entry: %1$, which contains information for this attribute does not exist.|SASHELP.FSP.OK.SLIST
+998|IN_DEFAULT_TOPLEVEL|1|O|-ALL-|SASHELP.FSP.OK.SLIST
+1062|IN_EQUATION_NOT_DEFINED|1|E|%lEquation does not exist. Press Define.|SASHELP.FSP.OK.SLIST
+1190|IO_MDDB_NOT_EXIST|1|E|%LMDDB %1$ does not exist.|SASHELP.FSP.OK.SLIST
+1194|IO_MDDB_SYNC|1|N|%LSynchronization of the MDDB registration with the MDDB file completed successfully.|SASHELP.FSP.OK.SLIST
+1236|IO_NO_EDIT_BASETABL|1|W|%LThe value of the BASETABL attribute may not be edited for MDDB's created with the MDDB object in EIS. Modify the value from the MDDB object used to create the MDDB file.|SASHELP.FSP.OK.SLIST
+1258|DI_MDDB_NO_ANALYSIS|1|W|%LFor MDDB registrations, the ANALYSIS attribute may only be modified or deleted if the column is a computed column.|SASHELP.FSP.OK.SLIST
+1270|DI_MDDB_NO_COL_DELETE|1|N|%LOnly computed and NUNIQUE columns can be deleted from a MDDB registration.|SASHELP.FSP.OK.SLIST
+1271|DI_MDDB_NO_CATEGORY|1|W|%LFor MDDB registrations, the CATEGORY attribute may only be deleted if the column is a computed column.|SASHELP.FSP.OK.SLIST
+1292|IN_VERIFY_DEL_MAPINFO_HIER|1|Q|%LThe hierarchy selected for deletion is used by the MAPINFO attribute. The hierarchy will also be deleted from the MAPINFO attribute. Are you sure you wish to delete this hierarchy?|SASHELP.FSP.YN.SLIST
+1293|IN_MAPINFO_COLS_CHANGED|1|W|%LThe column order for the hierarchy, %1$, has been modified. This hierarchy is used by the MAPINFO attribute. The MAPINFO attribute may require modification.|SASHELP.FSP.OK.SLIST
+1410|DI_NO_ATTR_ADDED|1|W|%lThe %1$ attribute cannot be registered for %2$.|SASHELP.FSP.OK.SLIST
+1418|DI_ATTR_EXIST|1|W|%lThe %1$ attribute is already registered for %2$.|SASHELP.FSP.OK.SLIST
+1418|DI_ATTR_EXIST|2|W|Edit the attribute to modify.|SASHELP.FSP.OK.SLIST
+1430|DI_NO_ATTR_MDDB|1|W|%lThe %1$ attribute cannot be registered to|SASHELP.FSP.OK.SLIST
+1430|DI_NO_ATTR_MDDB|2|W|a MDDB table.|SASHELP.FSP.OK.SLIST
+1440|IO_DND_REG_EXISTS|1|E|Registration %1$ already exists.|SASHELP.FSP.OK.SLIST
+1447|IN_DND_APPL_WNAME|1|O|Rename/Replace Application|SASHELP.FSP.OK.SLIST
+1457|IO_DND_APPL_EXISTS|1|E|Application %1$ already exists.|SASHELP.FSP.OK.SLIST
+1467|IO_DND_REGNAME_REQUIRED|1|E|A registration name is required.|SASHELP.FSP.OK.SLIST
+1474|IN_DND_REG_WNAME|1|O|Rename/Replace Metabase Registration|SASHELP.FSP.OK.SLIST
+1514|DI_MAPINFO_ATTRS_NOT_EXIST|1|E|%LThe following attributes are required: HIERARCH and ANALYSIS.|SASHELP.FSP.OK.SLIST
+1538|IN_MAPINFO_HIER_DELETE|1|Q|%lAre you sure you really wish to delete the assigned MAPINFO for hierarchy %1$?|SASHELP.FSP.OC.SLIST
+1538|IN_MAPINFO_HIER_DELETE|2|Q|%n|SASHELP.FSP.OC.SLIST
+1538|IN_MAPINFO_HIER_DELETE|3|Q|Use OK to delete, Cancel to quit.|SASHELP.FSP.OC.SLIST
+1543|DI_MAPINFO_COLUMN_ORDER|1|W|%lThe column order for the hierarchy, %1$, has been modified.|SASHELP.FSP.OC.SLIST
+1543|DI_MAPINFO_COLUMN_ORDER|2|W|%n|SASHELP.FSP.OC.SLIST
+1543|DI_MAPINFO_COLUMN_ORDER|3|W|Use OK to continue, Cancel to quit.|SASHELP.FSP.OC.SLIST
+1545|DI_MAPINFO_NOT_INCLUDED|1|E|%lMAPINFO information could not be included from %1$.|SASHELP.FSP.OK.SLIST
+1547|IN_MAPINFO_INCLUDE|1|E|%lPlease select a Table and a Hierarchy to include or press Cancel to quit.|SASHELP.FSP.OK.SLIST
+1548|IO_MAPINFO_INVALID_MAPDATA|1|E|%lInvalid Map data set.|SASHELP.FSP.OK.SLIST
+1550|DI_MAPINFO_MARKER_NOT_EXIST|1|W|%lMarker data set %1$ does not exist. Select Edit Marker to create a marker data set.|SASHELP.FSP.OK.SLIST
+1553|DI_MAPINFO_INVALID_MARKER|1|E|%lInvalid marker data set.|SASHELP.FSP.OK.SLIST
+1554|DI_MAPINFO_MARKER_NOUPDATE|1|W|%lMarker data set %1$ cannot be opened in update mode. Changes will not be saved.|SASHELP.FSP.OC.SLIST
+1554|DI_MAPINFO_MARKER_NOUPDATE|2|W|%n|SASHELP.FSP.OC.SLIST
+1554|DI_MAPINFO_MARKER_NOUPDATE|3|W|Select OK to continue, Cancel to quit.|SASHELP.FSP.OC.SLIST
+1555|DI_MAPINFO_SAVE_ROTATE|1|W|%lRotate/Tilt information could not be saved.|SASHELP.FSP.OK.SLIST
+1556|DI_MAPINFO_SAVE_NODE|1|W|%lNode information could not be saved.|SASHELP.FSP.OK.SLIST
+1557|DI_MAPINFO_CLEAR_NODE|1|W|%lNode information could not be cleared.|SASHELP.FSP.OK.SLIST
+1631|IO_SELVAR_MINSEL|1|E|%LA minimum of %1 selection(s) is required for the %2$ type.|SASHELP.FSP.OK.SLIST
+1658|IO_NAME_INVALID_2|1|E|The name "%$" is not a valid SAS name.|SASHELP.FSP.OK.SLIST
+1690|IN_SELECT_ATTR|1|E|%lAn attribute is required. Please select one.|SASHELP.FSP.OK.SLIST
+1691|IO_NO_EIS_APP_NAME|1|E|%lA complete application name has not been specified.  Please check the path, application database name, and application name.|SASHELP.FSP.OK.SLIST
+1692|IO_NO_EIS_ADB_NAME|1|E|%lA complete application database name has not been specified.  Please check the path and application database name.|SASHELP.FSP.OK.SLIST
+1724|IO_APPLDS_EMPTY|1|N|%lThe application database specified is empty.|SASHELP.FSP.OK.SLIST
+1776|DI_MAPINFO_REPLACE_NODE|1|Q|%lDo you really want to replace the current node information?|SASHELP.FSP.YN.SLIST
+1777|DI_MAPINFO_UPDATE_NODE|1|E|%lNode information is invalid.|SASHELP.FSP.OK.SLIST
+1777|DI_MAPINFO_UPDATE_NODE|2|E|%n|SASHELP.FSP.OK.SLIST
+1777|DI_MAPINFO_UPDATE_NODE|3|E|Please update Node information.|SASHELP.FSP.OK.SLIST
+1781|DI_MAPINFO_INVALID_NODE|1|W|%lEntered node information is invalid or incomplete.|SASHELP.FSP.OC.SLIST
+1781|DI_MAPINFO_INVALID_NODE|2|W|To update node information click on OK.|SASHELP.FSP.OC.SLIST
+1781|DI_MAPINFO_INVALID_NODE|3|W|To ignore entered node information click on Cancel.|SASHELP.FSP.OC.SLIST
+1826|IN_SELECT_FROM_AVAILABLE|1|E|%LYou must make a selection from the Available|SASHELP.FSP.OK.SLIST
+1826|IN_SELECT_FROM_AVAILABLE|2|E|list box.|SASHELP.FSP.OK.SLIST
+1870|DI_MAPINFO_NO_LIBREF|1|W|%lLibname %1$ of Marker data set is not assigned. Marker data set cannot be edited.|SASHELP.FSP.OK.SLIST
+1880|IN_DEFAULT_MBDESC|1|O|Personal Repository|SASHELP.FSP.OK.SLIST
+1884|IN_MAPINFO_DELETE_HIER|1|Q|%LDeleting the HIERARCH attribute for registration: %1$ will also delete the MAPINFO attribute.|SASHELP.FSP.OC.SLIST
+1884|IN_MAPINFO_DELETE_HIER|2|Q|%NUse OK to delete, Cancel to quit.|SASHELP.FSP.OC.SLIST
+1940|IN_RENAME_APPL_WNAME|1|O|Rename Application Database|SASHELP.FSP.OK.SLIST
+1941|IN_RENAME_OB_WNAME|1|O|Rename Object Database|SASHELP.FSP.OK.SLIST
+1942|IO_MDDB_SYNC_CANCEL|1|N|%LSynchronization of the MDDB registration has been canceled.|SASHELP.FSP.OK.SLIST
+1946|IO_MAPINFO_NONE|1|O|-NONE-|SASHELP.FSP.OK.SLIST
+1962|DI_CANNOT_DELETE_MLINDEX|1|E|%LUnable to update the metalib index because: %1$|SASHELP.FSP.OK.SLIST
+1974|IO_DT_MBNAME_REQUIRED|1|E|A complete repository name has not been specified.|SASHELP.FSP.OK.SLIST
+1975|IO_DT_REGNAME_REQUIRED|1|E|A complete metabase registration name has not been specified. Please check the path, metabase name, and table name.|SASHELP.FSP.OK.SLIST
+1983|IO_DT_MB_NOT_EXIST|1|W|%LRepository %1$ does not exist.|SASHELP.FSP.OK.SLIST
+1994|IO_DT_REG_NOT_EXIST|1|W|%LRegistration %1$ does not exist in repository %2$.|SASHELP.FSP.OK.SLIST
+1995|IO_UNABLE_TO_ACCESS_TABLE|1|E|%LUnable to access table %1$.|SASHELP.FSP.OK.SLIST
+2048|CL_MAPINFO_LABELS|1|O|Rotate:, Tilt:, Save angles on OK, Legend X:, Legend Y:, Save location on OK|SASHELP.FSP.OK.SLIST
+2054|CL_VALUE|1|O|value|SASHELP.FSP.OK.SLIST
+2142|IO_UNABLE_TO_READ_MDDB|1|E|%LUnable to read MDDB %1$.|SASHELP.FSP.OK.SLIST
+2445|DI_BASETABLE_NOT_EXIST|1|Q|%LThe table %1$, used to create MDDB %2$, could not be accessed. Certain column metadata will not be picked up from %3$. Do you wish to continue with this registration?|SASHELP.FSP.YN.SLIST
+2446|IN_BASETABLE_NOT_EXIST|1|W|%LThe table %1$, used to create MDDB %2$, could not be accessed. Certain column metadata will not be picked up from %3$.|SASHELP.FSP.OK.SLIST
+3752|CL_MEASURES_CHOICES|1|L|Select initial subset value,Specify substitution value| 
+3753|CL_MEASURES_TITLES|1|L|Initial subset value,Substitution value| 
+3807|IO_VAR_MISS_REG_ERROR|1|E|The following columns are not registered in the repository: %1$|SASHELP.FSP.OK.SLIST
+3808|IO_VAR_MISS_REG_WARN|1|W|%LThe column %1$ is not available and dropped from the report.|SASHELP.FSP.OK.SLIST
+3809|IO_DS_MISS_HIERARCHY_WARN|1|W|%LThe hierarchy %1$ is not available and dropped from the report.|SASHELP.FSP.OK.SLIST
+3810|DI_CUSTOM_DROP|1|W|%LCustom attribute definitions have been removed for the following columns: %1$.|SASHELP.FSP.OK.SLIST
+3842|IN_APW_WARN|1|Q|WARNING: Without an Access Control key, system files with sensitive information will not be encrypted and not be password protected.|SASHELP.FSP.YN.SLIST
+3842|IN_APW_WARN|2|Q|Are your sure you want to continue?|SASHELP.FSP.YN.SLIST
+3843|IN_APW_SAVE_OK|1|N|The Access Control key was successfully saved.|SASHELP.FSP.OK.SLIST
+3844|IN_APW_SAVE_FAIL|1|E|Saving the Access Control key failed.|SASHELP.FSP.OK.SLIST
+3845|IN_AC_GROUP_NOT_EMPTY|1|E|Group %1$ is not empty. All users must be removed from a group before a group can be deleted.|SASHELP.FSP.OK.SLIST
+3846|IN_AC_GROUP_SYNTAX|1|E|A group name must be 1 to 8 characters long. Group names|SASHELP.FSP.OK.SLIST
+3846|IN_AC_GROUP_SYNTAX|2|E|must also begin with a letter or underscore.|SASHELP.FSP.OK.SLIST
+3846|IN_AC_GROUP_SYNTAX|3|E|Other characters can be letters, numbers, or|SASHELP.FSP.OK.SLIST
+3846|IN_AC_GROUP_SYNTAX|4|E|underscores. Blanks can not appear in a group name.|SASHELP.FSP.OK.SLIST
+3847|IN_AC_GROUP_EXISTS|1|E|Group %1$ already exists.|SASHELP.FSP.OK.SLIST
+3848|IN_AC_USERID_SYNTAX|1|E|A userid must be 3 to 32 characters long.|SASHELP.FSP.OK.SLIST
+3848|IN_AC_USERID_SYNTAX|2|E|Userids must also begin with a letter or underscore.|SASHELP.FSP.OK.SLIST
+3848|IN_AC_USERID_SYNTAX|3|E|Other characters can be letters, numbers, or underscores.|SASHELP.FSP.OK.SLIST
+3848|IN_AC_USERID_SYNTAX|4|E|Blanks can not appear in a userid.|SASHELP.FSP.OK.SLIST
+3849|IN_AC_USERID_EXISTS|1|E|User %1$ already exists.|SASHELP.FSP.OK.SLIST
+3850|IN_AC_NO_GROUP|1|E|You need to select at least one group.|SASHELP.FSP.OK.SLIST
+3861|CL_AC_ADMIN_LABELS|1|L|Administration,Administrator| 
+3948|IN_CONVERT_V7_ATTRDICT|1|W|%lAttribute dictionary: %1$, must be converted to Version 7 format in order to open it.%n%nSelect OK to convert, Cancel to quit.|SASHELP.FSP.OC.SLIST
+4045|IN_AC_RESTART|1|N|You have changed Access Control environment settings.|SASHELP.FSP.OK.SLIST
+4045|IN_AC_RESTART|2|N|To apply the changes, please close all active application windows and restart your application.|SASHELP.FSP.OK.SLIST
+4077|IN_REGISTRY_GET_ERROR|1|W|Could not read items from Registry. See Log for|SASHELP.FSP.OK.SLIST
+4077|IN_REGISTRY_GET_ERROR|2|W|any messages.|SASHELP.FSP.OK.SLIST
+4078|IN_REGISTRY_SET_ERROR|1|W|Cannot set items into Registry. See Log for|SASHELP.FSP.OK.SLIST
+4078|IN_REGISTRY_SET_ERROR|2|W|any messages.|SASHELP.FSP.OK.SLIST
+4198|IN_NO_DEFINITION|1|E|No definition provided for attribute. Use Cancel to exit.|SASHELP.FSP.OK.SLIST
+4201|IN_NO_STAT_SELECTED2|1|Q|No statistic selected. Are you certain that you want to continue without defining a restriction for %1$ ?|SASHELP.FSP.YN.SLIST
+4202|IN_NO_STAT_SELECTED|1|N|No statistic is selected.|SASHELP.FSP.YN.SLIST
+4202|IN_NO_STAT_SELECTED|2|N|Are you certain you want to remove the restrictions for %1$ ?|SASHELP.FSP.YN.SLIST
+4208|IO_TABLE_NOT_AVAILABLE|1|E|%LThe registration %1$ is not available.|SASHELP.FSP.OK.SLIST
+4211|DI_HIER_EMPTY_WARN|1|W|%LNone of the assigned columns for hierarchy %1$ are available. The hierarchy is dropped from the report.|SASHELP.FSP.OK.SLIST
+4229|IN_REGISTRY_BAD_LIST_ID|1|E|%l Invalid item list or object id for Registry Class.|SASHELP.FSP.OK.SLIST
+4234|IN_REGISTRY_INVALID_KEY|1|E|%lCould not open the specified Registry key.|SASHELP.FSP.OK.SLIST
+4236|IN_REGISTRY_INVALID_QUERY|1|E|%lCould not query the specified values from the|SASHELP.FSP.OK.SLIST
+4236|IN_REGISTRY_INVALID_QUERY|2|E|registry.|SASHELP.FSP.OK.SLIST
+4238|IN_REGISTRY_FAIL_TO_LIST|1|E|%lCould not list the(se) value(s) from the Registry.|SASHELP.FSP.OK.SLIST
+4239|IN_REGISTRY_CHAR_KEY_FAILED|1|E|%lCould not set character value into this key|SASHELP.FSP.OK.SLIST
+4242|IN_REGISTRY_NUM_KEY_FAILED|1|E|%lCould not set this numeric value into Registry|SASHELP.FSP.OK.SLIST
+4242|IN_REGISTRY_NUM_KEY_FAILED|2|E|key.|SASHELP.FSP.OK.SLIST
+4320|DI_INCOMPLETE_REPORT|1|E|%LThere are not enough of the requested data|SASHELP.FSP.OK.SLIST
+4320|DI_INCOMPLETE_REPORT|2|E|columns available to display the report.|SASHELP.FSP.OK.SLIST
+4329|IO_CONVERT_V7_ATTRDICT|1|N|Attribute dictionary is in version 6 format.|SASHELP.FSP.OC.SLIST
+4329|IO_CONVERT_V7_ATTRDICT|2|N|It must be converted to version 7 format to open.|SASHELP.FSP.OC.SLIST
+4329|IO_CONVERT_V7_ATTRDICT|3|N|Press OK to convert now.|SASHELP.FSP.OC.SLIST
+4330| |1|N|Attribute dictionary is in version 6 format.|SASHELP.FSP.OC.SLIST
+4330| |2|N|It must be converted to version 7 format to open.|SASHELP.FSP.OC.SLIST
+4330| |3|N|Convert now?|SASHELP.FSP.OC.SLIST
+4332|IO_MB_CONVERSION_FAIL|1|O|The metabase conversion failed due to the following|SASHELP.FSP.OK.SLIST
+4332|IO_MB_CONVERSION_FAIL|2|O|error:|SASHELP.FSP.OK.SLIST
+4417|DI_MBCONVERTNO|1|E|%LWrite access to repository denied. You must have write access to the repository and repository path in order to convert.|SASHELP.FSP.OK.SLIST
+4514|IO_HALT|1|E|Unable to perform function. Program halted due to|SASHELP.FSP.OK.SLIST
+4514|IO_HALT|2|E|an internal error.|SASHELP.FSP.OK.SLIST
+4555|IO_VAR_MISS_ATTR_WARN|1|W|%LThe column %1$ does not have the requested attributes: %2$.|SASHELP.FSP.OK.SLIST
+4555|IO_VAR_MISS_ATTR_WARN|2|W|The column is dropped from the report.|SASHELP.FSP.OK.SLIST
+4620|IN_NEW_REP_WNAME|1|O|Create a New Repository|SASHELP.FSP.OK.SLIST
+4622|IN_NEW_RENAME_REP_WNAME|1|O|Rename Metabase|SASHELP.FSP.OK.SLIST
+4623|IN_RENAME_REP_WNAME|1|O|Rename Repository|SASHELP.FSP.OK.SLIST
+4830|IN_FILE_NOT_FOUND|1|E|File %$ does not exist or could not be found. You can not select a value at this time.|SASHELP.FSP.OK.SLIST
+4841|IO_MBTOREP_CANCELLED|1|E|%LMetabase conversion cancelled.|SASHELP.FSP.OK.SLIST
+4842|IN_MB_REQUIRES_CONVERSION|1|W|%LMetabase %1$ requires conversion.|SASHELP.FSP.OK.SLIST
+5684|IO_V6TOV7_COPY|1|E|%lV6 tables and catalogs must be converted to V7|SASHELP.FSP.OK.SLIST
+5684|IO_V6TOV7_COPY|2|E|format before converting your metabase.|SASHELP.FSP.OK.SLIST
+5739|IN_REQUIRED|1|N|%l-REQUIRED-|SASHELP.FSP.OK.SLIST
+5742|IN_NO_HIER|1|E|%lThe data set has no registered hierarchies.|SASHELP.FSP.OK.SLIST
+5743|IN_NO_CAT|1|E|%lNo variable with CATEGORY attribute found.|SASHELP.FSP.OK.SLIST
+5745|IN_NUMERIC_VARS|1|N|%lNumeric variables|SASHELP.FSP.OK.SLIST
+5747|IN_TYPE_VAR_REQ|1|E|%lA type variable has to be specified.  Select|SASHELP.FSP.OK.SLIST
+5747|IN_TYPE_VAR_REQ|2|E|OK to return.|SASHELP.FSP.OK.SLIST
+5748|IO_DS_NOT_VALID|1|E|%lData set %1$ is not valid.  Select OK to|SASHELP.FSP.OK.SLIST
+5748|IO_DS_NOT_VALID|2|E|return.|SASHELP.FSP.OK.SLIST
+5749|IO_VAR_NOT_EXIST|1|W|%lType variable %1$ does not exist.|SASHELP.FSP.OK.SLIST
+5750|IN_REG_VARS|1|W|%l %1$ does not have any category variables.|SASHELP.FSP.OK.SLIST
+5750|IN_REG_VARS|2|W|Please register your class variables with the|SASHELP.FSP.OK.SLIST
+5750|IN_REG_VARS|3|W|category attribute in the metabase.|SASHELP.FSP.OK.SLIST
+5807|IO_ADD_STAT|1|E|%lA statistic has to be specified.  Select OK to|SASHELP.FSP.OK.SLIST
+5807|IO_ADD_STAT|2|E|return.|SASHELP.FSP.OK.SLIST
+5842|IN_ANALYSIS_WINDOW|1|O|Default Analysis for|SASHELP.FSP.OK.SLIST
+5843|IN_ATTR_DICT_WINDOW|1|O|Attribute Dictionary|SASHELP.FSP.OK.SLIST
+5844|IN_APPL_DATA_WINDOW|1|O|Application Databases|SASHELP.FSP.OK.SLIST
+5845|IN_OBJECT_DATA_WINDOW|1|O|Object Databases|SASHELP.FSP.OK.SLIST
+5846|IN_COPY_FROM_TITLE|1|O|Copy from:|SASHELP.FSP.OK.SLIST
+5847|IN_INCLUDE_TITLE|1|O|Include into:|SASHELP.FSP.OK.SLIST
+5848|IN_COLUMN_TITLE|1|O|Columns|SASHELP.FSP.OK.SLIST
+5868|CL_AC_PASSWD_DATASET_LABELS|1|O|User ID, User Description, User Groups, User Password, Create DateTime|SASHELP.FSP.OK.SLIST
+5869|CL_AC_GROUPS_DATASET_LABELS|1|O|Group Name, Group Description|SASHELP.FSP.OK.SLIST
+5870|CL_AC_ACL_DATASET_LABELS|1|O|Group Identifier, Target Identifier, Information Type, Information Item, Information Value, Access Control Tag|SASHELP.FSP.OK.SLIST
+5976|DI_HIER_EXIST|1|W|%LHierarchy %$ already exist.|SASHELP.FSP.OK.SLIST
+6043|CL_DT_POPUP_LABELS|1|O|Properties|SASHELP.FSP.OK.SLIST
+6066|IN_HIER_DELETED|1|Q|%lThe column, %1$, exist in a hierarchy. This will|SASHELP.FSP.OC.SLIST
+6066|IN_HIER_DELETED|2|Q|cause %1$ to be removed from any hierarchy|SASHELP.FSP.OC.SLIST
+6066|IN_HIER_DELETED|3|Q|associated with this registration.  Select OK|SASHELP.FSP.OC.SLIST
+6066|IN_HIER_DELETED|4|Q|to delete.|SASHELP.FSP.OC.SLIST
+6110|IN_ACLSYNC_RUN|1|O|Synchronization in process...|SASHELP.FSP.OK.SLIST
+6111|IN_ACLSYNC_FAIL|1|E|Check on Access Control List failed.|SASHELP.FSP.OK.SLIST
+6112|IN_ACLSYNC_NONE|1|O|No obsolete records found in ACL.|SASHELP.FSP.OK.SLIST
+6113|CL_ACLSYNC_LABELS|1|O|Groups, Application Databases, Applications,|SASHELP.FSP.OK.SLIST
+6113|CL_ACLSYNC_LABELS|2|O|Table Registrations, Hierarchies, Hierarchy Levels,|SASHELP.FSP.OK.SLIST
+6113|CL_ACLSYNC_LABELS|3|O|Analysis Columns, Statistics, Category Columns,|SASHELP.FSP.OK.SLIST
+6113|CL_ACLSYNC_LABELS|4|O|Category Levels, Macro Variables|SASHELP.FSP.OK.SLIST
+6117|IN_RTMAP_FAIL|1|E|Only tables with MAP hierarchy allowed.|SASHELP.FSP.OK.SLIST
+6203|IO_REP_EXIST|1|E|The %1$ repository cannot be created. Another|SASHELP.FSP.OK.SLIST
+6203|IO_REP_EXIST|2|E|repository already exists at that location.|SASHELP.FSP.OK.SLIST
+6300|CL_AC_LOG_DATASET_LABELS|1|O|User ID, Target Identifier, Action Type, Date, Time, Duration|SASHELP.FSP.OK.SLIST
+6318|IN_AC_LOCAL_SERVER_LABEL|1|O|-LOCAL-|SASHELP.FSP.OK.SLIST
+6340|IN_CHANGE_HIERARCHY|1|O|Change displayed Hierarchy|SASHELP.FSP.OK.SLIST
+6341|IN_TITLE_CONVMETA|1|O|Convert Metabases|SASHELP.FSP.OK.SLIST
+6342|IN_TITLE_DISMETA|1|O|Display all metabases|SASHELP.FSP.OK.SLIST
+6343|IN_TITLE_DISATTR|1|O|Display all attribute dictionaries|SASHELP.FSP.OK.SLIST
+6344|IN_TITLE_CONVATTR|1|O|Convert Attribute Dictionaries|SASHELP.FSP.OK.SLIST
+6345|IN_COPY_APPL|1|O|Copy an Application Database|SASHELP.FSP.OK.SLIST
+6348|IN_COPY_OBJ|1|O|Copy an Object Database|SASHELP.FSP.OK.SLIST
+6353|IN_NON_ZERO|1|O|Value must be non-zero.|SASHELP.FSP.OK.SLIST
+6354|IN_MAP_ROTATE|1|O|Rotate:|SASHELP.FSP.OK.SLIST
+6355|IN_MAP_TILT|1|O|Tilt:|SASHELP.FSP.OK.SLIST
+6356|IN_MAP_ANGLES|1|O|Save angles on OK|SASHELP.FSP.OK.SLIST
+6357|IN_MAP_X|1|O|Legend X:|SASHELP.FSP.OK.SLIST
+6358|IN_MAP_Y|1|O|Legend Y:|SASHELP.FSP.OK.SLIST
+6359|IN_MAP_LOCATION|1|O|Save location on OK|SASHELP.FSP.OK.SLIST
+6360|IN_NO_TABLE|1|O|NOTE:  No table selected, nothing to view.|SASHELP.FSP.OK.SLIST
+6361|IN_COLUMNS_REG|1|O|NOTE:  All columns are registered.|SASHELP.FSP.OK.SLIST
+6362|IN_ADD|1|O|Add|SASHELP.FSP.OK.SLIST
+6363|IN_DELETE|1|O|Delete|SASHELP.FSP.OK.SLIST
+6364|IN_VIEW_DATA|1|O|View data|SASHELP.FSP.OK.SLIST
+6365|IN_ADD_COLUMN_DB|1|O|Add to column db|SASHELP.FSP.OK.SLIST
+6366|IN_EDIT|1|O|Edit|SASHELP.FSP.OK.SLIST
+6367|IN_ADD_DOTS|1|O|Add...|SASHELP.FSP.OK.SLIST
+6368|IN_RENAME|1|O|Rename|SASHELP.FSP.OK.SLIST
+6369|IN_COLUMNS|1|O|Columns|SASHELP.FSP.OK.SLIST
+6370|IN_COPY|1|O|Copy|SASHELP.FSP.OK.SLIST
+6371|IN_VIEW_TABLE|1|O|View table|SASHELP.FSP.OK.SLIST
+6372|IN_START|1|O|Start of default install routine|SASHELP.FSP.OK.SLIST
+6373|IN_REGISTER|1|O|Registering default attribute dictionary.|SASHELP.FSP.OK.SLIST
+6374|IN_VERB|1|O|Installing verb manager defaults.|SASHELP.FSP.OK.SLIST
+6375|IN_ASSOCIATION|1|O|Installing association manager defaults.|SASHELP.FSP.OK.SLIST
+6376|IN_COMPLETED|1|O|Install process completed successfully.|SASHELP.FSP.OK.SLIST
+6377|IN_ERROR_REPOS|1|O|Error building default repository|SASHELP.FSP.OK.SLIST
+6378|IN_ERROR_VERB|1|O|Error building default verbs|SASHELP.FSP.OK.SLIST
+6379|IN_ERROR_ASSOC|1|O|Error building default associations|SASHELP.FSP.OK.SLIST
+6380|IN_ERROR_CLEANUP|1|O|Error cleaning up SAS datasets at libref:|SASHELP.FSP.OK.SLIST
+6381|IN_ERROR_REG|1|O|Error registering default dictionary|SASHELP.FSP.OK.SLIST
+6382|IN_ERROR_SETTING|1|O|Error setting dictionary to open dictionary (A0000002)|SASHELP.FSP.OK.SLIST
+6383|IN_ERROR_GETTING|1|O|Error getting repository version from initrmgr|SASHELP.FSP.OK.SLIST
+6384|IN_ERROR_UNKNOWN|1|O|Unknown error location|SASHELP.FSP.OK.SLIST
+6385|IN_FAILED_INSTALL|1|O|The Installation Failed. Check the Message Log for details|SASHELP.FSP.OK.SLIST
+6386|IN_ERROR_RUNEIS|1|O|ERROR: The correct use of RUNEIS is:|SASHELP.FSP.OK.SLIST
+6387|IN_RUNEIS|1|O|RUNEIS APPL=LIB.APPLDATABASE.APPLICATION.TYPE|SASHELP.FSP.OK.SLIST
+6417|IN_INIT_FAILED|1|O|Initialize Repository Mgr. failed, rc=|SASHELP.FSP.OK.SLIST
+6418|IN_DICT_REGISTERED|1|O|Default dictionary %1$ registered.|SASHELP.FSP.OK.SLIST
+6806|IN_COL_EXIST|1|N|%lThe %1$ table cannot be registered without column data.|SASHELP.FSP.OK.SLIST
+6807|IN_CMR_DOWN|1|N|%lPlease verify that your repository manager|SASHELP.FSP.OK.SLIST
+6807|IN_CMR_DOWN|2|N|path is valid. Enter the command reposmgr|SASHELP.FSP.OK.SLIST
+6807|IN_CMR_DOWN|3|N|and select setup repository manager.|SASHELP.FSP.OK.SLIST
+6808|IN_SETUP_REPOS|1|N|%Please issue the REPOSMGR command to setup|SASHELP.FSP.OK.SLIST
+6808|IN_SETUP_REPOS|2|N|the Repository Manager or contact your Systems|SASHELP.FSP.OK.SLIST
+6808|IN_SETUP_REPOS|3|N|Administrator to assist you with this task.|SASHELP.FSP.OK.SLIST
+6890|CL_NUNIQUE_VALUES|1|O|Distinct Values (NUNIQUE)...|SASHELP.FSP.OK.SLIST
+6891|IN_NO_NUNIQUE_CATEGORY|1|N|%LThere are no available Category variables for the NUNIQUE statistic.|SASHELP.FSP.OK.SLIST
+6892|CL_NUNIQUE_VALUES2|1|O|Distinct Values (NUNIQUE)|SASHELP.FSP.OK.SLIST
+6972|IO_NUNIQUE_CONFLICT|1|Q|The non-registered nunique column(s):%n%$%nconflict with Metabase registrations.  The Metabase registrations will be used.%nSave the non-registered customizations?|SASHELP.FSP.YN.SLIST
+7003|IN_IN|1|O|in|SASHELP.FSP.OK.SLIST
+7060|IN_CANNOT_START_METABASE|1|E|%LUnable to start the Metabase facility.|SASHELP.FSP.OK.SLIST
+7128|IN_NO_CAT_SELECTED|1|E|A category is required.  Select one or press Cancel to quit.|SASHELP.FSP.OK.SLIST
+7210|IN_NO_STATS_CHANGED|1|E|Make changes to statistic labels or press Cancel to quit.|SASHELP.FSP.OK.SLIST
+7215|IN_DUP_LABEL|1|E|%l"%1$" is a duplicate label of the %2$ statistic.|SASHELP.FSP.OK.SLIST
+7224|IN_NO_NUNIQUE_CHANGES|1|E|Make changes to Nunique information or press Cancel to quit.|SASHELP.FSP.OK.SLIST
+7234|IN_INV_FORMAT|1|E|Invalid format specified.|SASHELP.FSP.OK.SLIST
+7235|IN_DUP_COL_LABEL|1|E|%lThe label is a duplicate label of the %1$ column.|SASHELP.FSP.OK.SLIST
+7236|IN_FMT_LBL_ERROR|1|E|%lThe Label and Format fields are in error.|SASHELP.FSP.OK.SLIST
+7237|IN_NAME_REQ|1|E|When Register is selected then a name is required.|SASHELP.FSP.OK.SLIST
+7238|IO_DUP_COL_REG|1|E|%l%1$ is already a registered column.|SASHELP.FSP.OK.SLIST
+7322|IO_CC_VARLIST_EMPTY|1|E|The Computed Column variable list is missing or empty.|SASHELP.FSP.OK.SLIST
+7323|IO_CC_EXPLIST_EMPTY|1|E|The Computed Column expression list is missing or empty.|SASHELP.FSP.OK.SLIST
+7328|DI_INVALID_EXP_LIST|1|E|%lInvalid expression list.|SASHELP.FSP.OK.SLIST
+7331|IN_VARINFO_EMPTY|1|E|%lThe variable information list is empty.|SASHELP.FSP.OK.SLIST
+7360|IN_NOT_CATEGORY|1|E|%lThe column %1$ is missing or is not a Category Variable.|SASHELP.FSP.OK.SLIST
+7362|IO_NU_VARLIST_EMPTY|1|E|The Nunique variable list is missing or empty.|SASHELP.FSP.OK.SLIST
+7364|IO_ALREADY_NUNIQUE|1|E|Category registration %1$ already has an associated Nunique registration.|SASHELP.FSP.OK.SLIST
+7365|IO_MDDB_CREATE|1|N|%lMultidimensional Database %1$ has been created. %N Completion time: %(2#time.)|SASHELP.FSP.OK.SLIST
+7366|IO_MDDB_CREATES|1|N|%lMultidimensional Database %1$ has been created.|SASHELP.FSP.OK.SLIST
+7558|IN_NO_MAPINFO|1|N|%lThe repository to include does not contain any tables with the MAPINFO attribute.|SASHELP.FSP.OK.SLIST

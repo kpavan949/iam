@@ -1,0 +1,5 @@
+id,name,age,sal,loc,New
+100,Jagan,34,40000,hyd,1
+200,alekay,20,30000,bang,2
+300,vivek,30,5000,che,3
+400,swati,33,60000,bombay,4

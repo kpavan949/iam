@@ -1,0 +1,10 @@
+100 jagan 2000 23 M
+200 vivek 4000 24 m
+300 vikas 5000 54 m
+400 swati 5000 45 f
+500 vijaya 4400 33 f
+100 jagan 4000 23 M
+200 vivek 6000 24 m
+300 vikas 7000 54 m
+400 swati 7000 45 f
+500 vijaya 6400 33 f

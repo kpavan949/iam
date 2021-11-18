@@ -1,0 +1,5 @@
+100 jagan 2000
+200 vivek 4000
+300 vikas 5000
+400 swati 5000
+500 vijaya 4400
